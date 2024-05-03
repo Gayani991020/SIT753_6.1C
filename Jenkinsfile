@@ -42,7 +42,7 @@ pipeline{
             post {
                 success {
                     emailext (
-                        to: 'thathsarasamaraweera16@gmail.com',
+                        to: 'gayaniabewickrama1020@gmail.com',
                         subject: 'Security Scan Successful',
                         body: 'Security scan completed successfully.',
                         attachLog: true
@@ -50,7 +50,7 @@ pipeline{
                 }
                 failure {
                     emailext (
-                        to: 'thathsarasamaraweera16@gmail.com',
+                        to: 'gayaniabewickrama1020@gmail.com',
                         subject: 'Security Scan Failed',
                         body: 'Security scan failed.',
                         attachLog: true
